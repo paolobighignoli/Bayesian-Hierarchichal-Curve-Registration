@@ -5,10 +5,17 @@ The data-set we worked with contains observations of the flexion-extension angle
 
 The aim of this project was to align those curves. The data are private so we can not upload the original dataset, but to show that the algortihm for the alignment actually worked, we will upload the simulated curves that we used to check the performances of our algorithm. See the [simulated_functions](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/simulated_functions.R) file.
 
-
+## Structure of the Codes
 
 
 ## Authors
 * **Paolo Bighignoli** - MSc in Mathematical Engineering, Quantitative Finance, Politecnico di Milano
 * **Federica Mattina** - MSc in Mathematical Engineering, Applied Statistics, Politecnico di Milano
 * **Federica Principe** - MSc in Mathematical Engineering, Applied Statistics, Politecnico di Milano
+
+
+## References
+* **Bayesian Hierarchical Curve Registration.** Donatello Telesca, Lurdes Y. T. Inoue. 
+Journal of the American Statistical Association (2008).
+* **Bayesian analysis for the social sciences.** Simon Jackman. Wiley, New York (2009).
+* **An Adaptive Metropolis Algorithm.** Heikki Haario, Eero Saksman, Johanna Tamminen. Bernoulli Journal (2001).
