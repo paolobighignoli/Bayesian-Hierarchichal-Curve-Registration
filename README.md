@@ -1,7 +1,7 @@
 # Bayesian Registration of Functional Data
 
-Functional data often present a common shape, but with variation in amplitude and phase across curves.
-The goal of this project is to synchronize data through curve registration in a Bayesian framework.
+Functional data often present a common shape, but with variation in amplitude and phase across curves. <br/>
+The goal of this project is to synchronize data through curve registration in a Bayesian framework. <br/>
 Specifically, we implemented a Gibbs Sampler algorithm with one step of Metropolis-Hastings for the following model: 
 
 
@@ -10,9 +10,9 @@ If you are insterested in a more detailed description of the model, please rely 
 
 ## Dataset 
 
-Data are a collection of observations regarding one leg hoop over time. 
-They are divided into three groups: healthy people, people who had physiotherapy and people who had surgery.
-Unfortunately, we are not allowed to upload original data, since they are medical records. 
+Data are a collection of observations regarding one leg hoop over time. <br/>
+They are divided into three groups: healthy people, people who had physiotherapy and people who had surgery. <br/>
+Unfortunately, we are not allowed to upload original data, since they are medical records. <br/>
 In order to let you run the code, we built up a set of fake-observations. You can find them in Simulated Data. 
 
 ## Contents
@@ -22,8 +22,9 @@ In order to let you run the code, we built up a set of fake-observations. You ca
 3. Metropolis-Hastings step : implementation of the Metropolis-Hastings step for the time transformation parameters;
 4. Gibbs Sampler : application of the Gibbs sampler with one step of Metropolis-Hustings to the data;
 5. Chain convergence : analysis of the chains;
-6. Comparison : this file cointains a comparison among the three groups previously presented. We are aware that you have no access to original data and in particular to the three different groups, but we thought it could be interesting to take a look at it anyway. 
-Do people who had surgery have less or more difficulty in jumping with respect to people who had physiotherapy? We tried to answer to this question and more.
+6. Comparison : this file cointains a comparison among the three groups previously presented. <br/>
+We are aware that you have no access to original data and in particular to the three different groups, but we thought it could be interesting to take a look at it anyway. <br/>
+Do people who had surgery have less or more difficulty in jumping with respect to people who had physiotherapy? We tried to answer to this question and more.<br/>
 In order to do this, we compared the posterior shape parameter a and the posterior mean derivative of each group.
 
 
