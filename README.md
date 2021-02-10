@@ -2,8 +2,7 @@
 
 Functional data often present a common shape, but with variation in amplitude and phase across curves. <br/>
 The goal of this project is to synchronize data through curve registration in a Bayesian framework. <br/>
-We propose a hierarchical model whose job is to model the amplitude of features and find a warping function that synchronizes all curves.
-
+We propose a hierarchical model whose job is to account the amplitude variability of the features and to find a warping function that synchronizes all curves.
 
 ## Dataset 
 
