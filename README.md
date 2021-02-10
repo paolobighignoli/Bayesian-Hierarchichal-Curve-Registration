@@ -1,7 +1,34 @@
 # Bayesian Registration of Functional Data
-## Project for the Bayesian Statistics course - MSc in Mathematical Engineering 
 
-The data-set we worked with contains observations of the flexion-extension angle of a knee during aone leg hoop over time. We have 2 thousand sampling times for each observation and We analyzed data coming from three groups of people: people who just had surgery, people that are in physicaltherapy or that had done it in the past, and healthy people. The healty subjects represent the control group in our study. To see how we uploaded and visualized our data see [Import_Data](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Import_data.R) file.
+Functional data often present a common shape, but with variation in amplitude and phase across curves.
+The goal of this project is to synchronize data through curve registration in a Bayesian framework.
+Specifically, we implemented a Gibbs Sampler algorithm with one step of Metropolis-Hastings for the following model: 
+
+
+
+If you are insterested in a more detailed description of the model, please rely on the report uploaded in the repository.
+
+## Dataset 
+
+Data are a collection of observations regarding one leg hoop over time. 
+They are divided into three groups: healthy people, people who had physiotherapy and people who had surgery.
+Unfortunately, we are not allowed to upload original data, since they are medical records. 
+In order to let you run the code, we built up a set of fake-observations. You can find them in Simulated Data. 
+
+## Contents
+
+1. Data preprocessing 
+2. Simulated Data 
+3. Metropolis-Hastings step : implementation of the Metropolis-Hastings step for the time transformation parameters;
+4. Gibbs Sampler : application of the Gibbs sampler with one step of Metropolis-Hustings to the data;
+5. Chain convergence : analysis of the chains;
+6. Comparison : this file cointains a comparison among the three groups previously presented. We are aware that you have no access to original data and in particular to the three different groups, but we thought it could be interesting to take a look at it anyway. 
+Do people who had surgery have less or more difficulty in jumping with respect to people who had physiotherapy? We tried to answer to this question and more.
+In order to do this, we compared the posterior shape parameter a and the posterior mean derivative of each group.
+
+
+
+The dataset we worked with contains observations of the flexion-extension angle of a knee during aone leg hoop over time. We have 2 thousand sampling times for each observation and We analyzed data coming from three groups of people: people who just had surgery, people that are in physicaltherapy or that had done it in the past, and healthy people. The healty subjects represent the control group in our study. To see how we uploaded and visualized our data see [Import_Data](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Import_data.R) file.
 The plotted curves are in the folder [Plots](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/tree/main/Plots) under the name *gruppo_controllo*, *gruppo_fisioterapia*, *gruppo_surgery*.
 
 For instance, here we see the original curves for the control group
