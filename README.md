@@ -2,11 +2,8 @@
 
 Functional data often present a common shape, but with variation in amplitude and phase across curves. <br/>
 The goal of this project is to synchronize data through curve registration in a Bayesian framework. <br/>
-Specifically, we implemented a Gibbs Sampler algorithm with one step of Metropolis-Hastings for the following model: 
+We propose a hierarchical model whose job is to model the amplitude of features and find a warping function that synchronizes all curves.
 
-
-
-If you are insterested in a more detailed description of the model, please rely on the report uploaded in the repository.
 
 ## Dataset 
 
@@ -15,6 +12,16 @@ They are divided into three groups: healthy people, people who had physiotherapy
 Unfortunately, we are not allowed to upload original data, since they are medical records. <br/>
 In order to let you run the code, we built up a set of fake-observations. You can find them in Simulated Data. 
 
+## Model 
+
+We implemented a Gibbs Sampler algorithm with one step of Metropolis-Hastings for the time transformation parameters.
+The model is the following one:
+
+
+
+If you are insterested in a more detailed description of the model, please rely on the report uploaded in the repository.
+
+
 ## Contents
 
 1. Data preprocessing 
@@ -22,11 +29,12 @@ In order to let you run the code, we built up a set of fake-observations. You ca
 3. Metropolis-Hastings step : implementation of the Metropolis-Hastings step for the time transformation parameters;
 4. Gibbs Sampler : application of the Gibbs sampler with one step of Metropolis-Hustings to the data;
 5. Chain convergence : analysis of the chains;
-6. Comparison : this file cointains a comparison among the three groups previously presented. <br/>
+6. Comparison : this folder cointains a comparison among the three groups previously presented. <br/>
 We are aware that you have no access to original data and in particular to the three different groups, but we thought it could be interesting to take a look at it anyway. <br/>
 Do people who had surgery have less or more difficulty in jumping with respect to people who had physiotherapy? We tried to answer to this question and more.<br/>
-In order to do this, we compared the posterior shape parameter a and the posterior mean derivative of each group.
-
+In order to do this, we performed analysis such as the comparison of the posterior shape parameter a and the posterior mean derivative of each group.
+7. Report : the report highlights in detail the steps of our work: model building, posterior inferences, comparisons.
+8. References : this folder contains the article we consulted during our study;
 
 
 The dataset we worked with contains observations of the flexion-extension angle of a knee during aone leg hoop over time. We have 2 thousand sampling times for each observation and We analyzed data coming from three groups of people: people who just had surgery, people that are in physicaltherapy or that had done it in the past, and healthy people. The healty subjects represent the control group in our study. To see how we uploaded and visualized our data see [Import_Data](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Import_data.R) file.
