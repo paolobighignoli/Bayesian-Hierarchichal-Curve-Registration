@@ -9,6 +9,7 @@ We propose a hierarchical model whose job is to account the amplitude variabilit
 Data are a collection of observations regarding a one leg hoop over time for some people. <br/>
 They are divided into three groups: healthy people, people who had physiotherapy and people who had surgery. <br/>
 Unfortunately, we are not allowed to upload the original data-set, since these data are medical records. <br/>
+
 In order to let you run the code we developed, we built up a set of fake-observations. You can find them in Simulated Data. 
 
 ## Model 
@@ -20,7 +21,10 @@ Consider: <br/>
 And the composite function: <br/>
 ![alt text](https://github.com/PrincipeFederica/hello-world/blob/main/model2.png) <br/>
 The observed value of each curve i at time t is modeled as: <br/>
-![alt text](https://github.com/PrincipeFederica/hello-world/blob/main/model3.png)
+![alt text](https://github.com/PrincipeFederica/hello-world/blob/main/model3.png) <br/>
+We assumed the error terms to be independent and normally distributed with null mean and common variance &sigma;^2.  <br/>
+In the end, we identify the i-th aligned curve at time t as: <br/>
+![alt text](https://github.com/PrincipeFederica/hello-world/blob/main/Schermata%202021-02-11%20alle%2021.59.10.png) <br/>
 
 
 If you are insterested in a more detailed description of the model, please rely on the report uploaded in the repository.
