@@ -8,7 +8,7 @@ We propose a hierarchical model whose job is to account the amplitude variabilit
 
 Data are a collection of observations regarding a one leg hoop over time for some people. <br/>
 They are divided into three groups: healthy people, people who had physiotherapy and people who had surgery. <br/>
-Unfortunately, we are not allowed to upload the original data-set, since these data are medical records. But for a better understand you can see the plotted curves in the folder [Plots](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/tree/main/Plots) under the name *gruppo_controllo*, *gruppo_fisioterapia*, *gruppo_surgery*. <br/> [Here](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Import_data.R) is the code we used to read and plot the original curves.
+Unfortunately, we are not allowed to upload the original data-set, since these data are medical records. But for a better understand you can see the plotted curves in the folder [Plots](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/tree/main/Plots) under the name *gruppo_controllo*, *gruppo_fisioterapia*, *gruppo_surgery*. <br/> Anyway, [Here](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Import_data.R) is the code we used to preprocess original data.
 
 In order to let you run the code we developed, we built up a set of fake-observations. You can find them in [Simulated Data](link).
 
