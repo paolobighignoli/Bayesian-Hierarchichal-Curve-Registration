@@ -43,7 +43,7 @@ We are aware that you have no access to original data and in particular to the t
 Do people who had surgery have less or more difficulty in jumping with respect to people who had physiotherapy? We tried to answer to this question and more.<br/>
 In order to do this, we performed analysis such as the comparison of the posterior shape parameter a and the posterior mean derivative of each group.
 7. [Report](link) : the report highlights in detail the steps of our work: model building, posterior inferences, comparisons.
-8. [References](link) : this folder contains the article we consulted during our study;
+8. [References](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/tree/main/References) : this folder contains the article we consulted during our study;
 
 
 
