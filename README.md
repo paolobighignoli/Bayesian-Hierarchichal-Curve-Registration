@@ -14,10 +14,13 @@ In order to let you run the code we developed, we built up a set of fake-observa
 ## Model 
 
 We implemented a Gibbs Sampler algorithm with one step of Metropolis-Hastings for the time transformation parameters.
-The hierarchical model is the following one:
-
-![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}) 
-
+The hierarchical model is the following one: <br/>
+Consider: <br/>
+![alt text](https://github.com/PrincipeFederica/hello-world/blob/main/Schermata%202021-02-11%20alle%2021.49.54.png)  <br/>
+And the composite function: <br/>
+![alt text](https://github.com/PrincipeFederica/hello-world/blob/main/model2.png) <br/>
+The observed value of each curve i at time t is modeled as: <br/>
+![alt text](https://github.com/PrincipeFederica/hello-world/blob/main/model3.png)
 
 
 If you are insterested in a more detailed description of the model, please rely on the report uploaded in the repository.
