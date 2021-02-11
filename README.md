@@ -8,7 +8,7 @@ We propose a hierarchical model whose job is to account the amplitude variabilit
 
 Data are a collection of observations regarding a one leg hoop over time for some people. <br/>
 They are divided into three groups: healthy people, people who had physiotherapy and people who had surgery. <br/>
-Unfortunately, we are not allowed to upload the original data-set, since these data are medical records. But for a better understand you can see the plotted curves in the folder [Plots](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/tree/main/Plots) under the name *gruppo_controllo*, *gruppo_fisioterapia*, *gruppo_surgery*. <br/>
+Unfortunately, we are not allowed to upload the original data-set, since these data are medical records. But for a better understand you can see the plotted curves in the folder [Plots](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/tree/main/Plots) under the name *gruppo_controllo*, *gruppo_fisioterapia*, *gruppo_surgery*. <br/> [Here](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Import_data.R) is the code we used to read and plot the original curves.
 
 In order to let you run the code we developed, we built up a set of fake-observations. You can find them in [Simulated Data](link).
 
@@ -44,9 +44,6 @@ Do people who had surgery have less or more difficulty in jumping with respect t
 In order to do this, we performed analysis such as the comparison of the posterior shape parameter a and the posterior mean derivative of each group.
 7. Report : the report highlights in detail the steps of our work: model building, posterior inferences, comparisons.
 8. References : this folder contains the article we consulted during our study;
-
-
- To see how we uploaded and visualized our data see [Import_Data](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Import_data.R) file.
 
 
 ## Structure of the Codes
