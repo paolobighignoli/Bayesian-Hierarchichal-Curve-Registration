@@ -34,7 +34,7 @@ If you are insterested in a more detailed description of the model, please rely 
 ## Contents and structure of the codes
 
 1. Data preprocessing 
-2. Simulated Data 
+2. [Simulated Data](link cartella) : we simulated a set of smooth curves as transformations of a common Beta density function. We first checked the algorithm by applying it to data obtained from the same base function modified just via shape parameters. Secondly to data obtained from the same base function modified just via time transformation parameters. Finally we switched to the original simulated data.
 3. Metropolis-Hastings step : implementation of the Metropolis-Hastings step for the time transformation parameters;
 4. Gibbs Sampler : application of the Gibbs sampler with one step of Metropolis-Hustings to the data;
 5. Chain convergence : analysis of the chains;
