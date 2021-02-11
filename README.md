@@ -8,9 +8,10 @@ We propose a hierarchical model whose job is to account the amplitude variabilit
 
 Data are a collection of observations regarding a one leg hoop over time for some people. <br/>
 They are divided into three groups: healthy people, people who had physiotherapy and people who had surgery. <br/>
-Unfortunately, we are not allowed to upload the original data-set, since these data are medical records. <br/>
+Unfortunately, we are not allowed to upload the original data-set, since these data are medical records. But for a better understand you can see the plotted curves in the folder [Plots](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/tree/main/Plots) under the name *gruppo_controllo*, *gruppo_fisioterapia*, *gruppo_surgery*. <br/>
 
-In order to let you run the code we developed, we built up a set of fake-observations. You can find them in Simulated Data. 
+In order to let you run the code we developed, we built up a set of fake-observations. You can find them in [Simulated Data](link).
+
 
 ## Model 
 
@@ -45,14 +46,7 @@ In order to do this, we performed analysis such as the comparison of the posteri
 8. References : this folder contains the article we consulted during our study;
 
 
-The dataset we worked with contains observations of the flexion-extension angle of a knee during aone leg hoop over time. We have 2 thousand sampling times for each observation and We analyzed data coming from three groups of people: people who just had surgery, people that are in physicaltherapy or that had done it in the past, and healthy people. The healty subjects represent the control group in our study. To see how we uploaded and visualized our data see [Import_Data](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Import_data.R) file.
-The plotted curves are in the folder [Plots](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/tree/main/Plots) under the name *gruppo_controllo*, *gruppo_fisioterapia*, *gruppo_surgery*.
-
-For instance, here we see the original curves for the control group
-
-![alt text](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Plots/gruppo_controllo.png)
-
-The aim of this project was to align those curves. The data are private so we can not upload the original dataset, but to show that the algortihm for the alignment actually worked, we will upload the simulated curves that we used to check the performances of our algorithm. See the [simulated_functions](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/simulated_functions.R) file. 
+ To see how we uploaded and visualized our data see [Import_Data](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Import_data.R) file.
 
 
 ## Structure of the Codes
