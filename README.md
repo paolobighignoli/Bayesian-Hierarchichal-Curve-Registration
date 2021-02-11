@@ -8,7 +8,7 @@ We propose a three-stage hierarchical model - it models both amplitude and timin
 
 Data are a collection of observations regarding a one leg hoop over time for some people. <br/>
 They are divided into three groups: healthy people, people who had physiotherapy and people who had surgery. <br/>
-Unfortunately, we are not allowed to upload the original data-set, since these data are medical records. Anyway, [Here](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Import_data.R) is the code we used to preprocess original data.
+Unfortunately, we are not allowed to upload the original data-set, since these data are medical records.  <br/> Anyway, [Here](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Import_data.R) is the code we used to preprocess original data.  <br/>
 In order to let you run the code we developed, we built up a set of fake-observations. You can find them in [Simulated Data](link).
 
 
