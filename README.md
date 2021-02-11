@@ -31,7 +31,7 @@ In the end, we identify the i-th aligned curve at time t as: <br/>
 If you are insterested in a more detailed description of the model, please rely on the report uploaded in the repository.
 
 
-## Contents
+## Contents and structure of the codes
 
 1. Data preprocessing 
 2. Simulated Data 
@@ -45,8 +45,6 @@ In order to do this, we performed analysis such as the comparison of the posteri
 7. Report : the report highlights in detail the steps of our work: model building, posterior inferences, comparisons.
 8. References : this folder contains the article we consulted during our study;
 
-
-## Structure of the Codes
 
 
 ## Authors
