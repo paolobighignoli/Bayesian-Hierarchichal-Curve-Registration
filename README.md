@@ -6,15 +6,17 @@ We propose a hierarchical model whose job is to account the amplitude variabilit
 
 ## Dataset 
 
-Data are a collection of observations regarding one leg hoop over time. <br/>
+Data are a collection of observations regarding a one leg hoop over time for some people. <br/>
 They are divided into three groups: healthy people, people who had physiotherapy and people who had surgery. <br/>
-Unfortunately, we are not allowed to upload original data, since they are medical records. <br/>
-In order to let you run the code, we built up a set of fake-observations. You can find them in Simulated Data. 
+Unfortunately, we are not allowed to upload the original data-set, since these data are medical records. <br/>
+In order to let you run the code we developed, we built up a set of fake-observations. You can find them in Simulated Data. 
 
 ## Model 
 
 We implemented a Gibbs Sampler algorithm with one step of Metropolis-Hastings for the time transformation parameters.
-The model is the following one:
+The hierarchical model is the following one:
+
+![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}) 
 
 
 
