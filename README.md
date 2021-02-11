@@ -38,10 +38,10 @@ If you are insterested in a more detailed description of the model, please rely 
 3. Metropolis-Hastings step : implementation of the Metropolis-Hastings step for the time transformation parameters;
 4. Gibbs Sampler : application of the Gibbs sampler with one step of Metropolis-Hustings to the data;
 5. Chain convergence : analysis of the chains;
-6. Comparison : this folder cointains a comparison among the three groups previously presented. <br/>
+6. [Comparison](link) : this folder cointains a comparison among the three groups previously presented. <br/>
 We are aware that you have no access to original data and in particular to the three different groups, but we thought it could be interesting to take a look at it anyway. <br/>
 Do people who had surgery have less or more difficulty in jumping with respect to people who had physiotherapy? We tried to answer to this question and more.<br/>
-In order to do this, we performed analysis such as the comparison of the posterior shape parameter a and the posterior mean derivative of each group.
+In order to do this, we performed analysis such as the comparison of the posterior shape parameter *a* and the *posterior mean derivative* of each group.
 7. [Report](link) : the report highlights in detail the steps of our work: model building, posterior inferences, comparisons.
 8. [References](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/tree/main/References) : this folder contains the article we consulted during our study;
 
