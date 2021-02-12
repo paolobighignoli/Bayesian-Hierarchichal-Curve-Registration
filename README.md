@@ -33,9 +33,12 @@ If you are insterested in a more detailed description of the model, please rely 
 ## Contents and structure of the codes
 
 - *Data preprocessing*
-- *[Simulated Data](link)* : we simulated a set of smooth curves as transformations of a common Beta density function. We first checked the algorithm by applying it to data obtained from the same base function modified just via shape parameters. Secondly to data obtained from the same base function modified just via time transformation parameters. Finally we switched to the original simulated data.
-- *Metropolis-Hastings step* : implementation of the Metropolis-Hastings step for the time transformation parameters;
-- *Gibbs Sampler* : application of the Gibbs sampler with one step of Metropolis-Hustings to the data;
+- *[Simulated Data](link)*: <br/>
+we simulated a set of smooth curves as transformations of a common Beta density function. We first checked the algorithm by applying it to data obtained from the same base function modified just via shape parameters. Secondly to data obtained from the same base function modified just via time transformation parameters. Finally we switched to the original simulated data.
+- *Metropolis-Hastings step* : <br/>
+implementation of the Metropolis-Hastings step for the setting of proposal variance for the time transformation parameters;
+- *Gibbs Sampler* : <br/>
+application of the Gibbs sampler algorithm with one step of Metropolis-Hastings to the data;
 - *Chain convergence* : analysis of the chains;
 - *[Comparison](link)* : this folder cointains a comparison among the three groups previously presented. <br/>
 We are aware that you have no access to original data and in particular to the three different groups, but we thought it could be interesting to take a look at it anyway. <br/>
