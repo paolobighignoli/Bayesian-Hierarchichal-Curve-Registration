@@ -32,17 +32,17 @@ If you are insterested in a more detailed description of the model, please rely 
 
 ## Contents and structure of the codes
 
-1. Data preprocessing 
-2. [Simulated Data](link) : we simulated a set of smooth curves as transformations of a common Beta density function. We first checked the algorithm by applying it to data obtained from the same base function modified just via shape parameters. Secondly to data obtained from the same base function modified just via time transformation parameters. Finally we switched to the original simulated data.
-3. Metropolis-Hastings step : implementation of the Metropolis-Hastings step for the time transformation parameters;
-4. Gibbs Sampler : application of the Gibbs sampler with one step of Metropolis-Hustings to the data;
-5. Chain convergence : analysis of the chains;
-6. [Comparison](link) : this folder cointains a comparison among the three groups previously presented. <br/>
+- *Data preprocessing*
+- *[Simulated Data](link)* : we simulated a set of smooth curves as transformations of a common Beta density function. We first checked the algorithm by applying it to data obtained from the same base function modified just via shape parameters. Secondly to data obtained from the same base function modified just via time transformation parameters. Finally we switched to the original simulated data.
+- *Metropolis-Hastings step* : implementation of the Metropolis-Hastings step for the time transformation parameters;
+- *Gibbs Sampler* : application of the Gibbs sampler with one step of Metropolis-Hustings to the data;
+- *Chain convergence* : analysis of the chains;
+- *[Comparison](link)* : this folder cointains a comparison among the three groups previously presented. <br/>
 We are aware that you have no access to original data and in particular to the three different groups, but we thought it could be interesting to take a look at it anyway. <br/>
 Do people who had surgery have less or more difficulty in jumping with respect to people who had physiotherapy? We tried to answer to this question and more.<br/>
 In order to do this, we performed analysis such as the comparison of the posterior shape parameter *a* and the *posterior mean derivative* of each group.
-7. [Report](link) : the report highlights in detail the steps of our work: model building, posterior inferences, comparisons.
-8. [References](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/tree/main/References) : this folder contains the article we consulted during our study;
+- *[Report](link)* : the report highlights in detail the steps of our work: model building, posterior inferences, comparisons.
+- *[References](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/tree/main/References)* : this folder contains the article we consulted during our study;
 
 
 
