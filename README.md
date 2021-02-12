@@ -43,7 +43,9 @@ application of the Gibbs sampler algorithm with one step of Metropolis-Hastings 
 - *[Comparison](link)* : this folder cointains a comparison among the three groups previously presented. <br/>
 We are aware that you have no access to original data and in particular to the three different groups, but we thought it could be interesting to take a look at it anyway. <br/>
 Do people who had surgery have less or more difficulty in jumping with respect to people who had physiotherapy? We tried to answer to this question and more.<br/>
-In order to do this, we performed analysis such as the comparison of the posterior shape parameter *a* and the *posterior mean derivative* of each group.
+In order to do this, we performed analysis such as the comparison of
+   - the posterior shape parameter *a*, 
+   - the *posterior mean derivative* of each group.
 - *[Report](link)* : the report highlights in detail the steps of our work: model building, posterior inferences, comparisons.
 - *[References](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/tree/main/References)* : this folder contains the article we consulted during our study;
 
