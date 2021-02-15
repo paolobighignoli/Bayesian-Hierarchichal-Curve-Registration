@@ -32,7 +32,7 @@ If you are insterested in a more detailed description of the model, please rely 
 
 ## Contents and structure of the codes
 
-- *Data preprocessing*
+- *[Data preprocessing](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Code/Import%20data.R)*: import and visualization of the dataset
 - *[Simulated Data](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Code/simulated_functions.R)*: <br/>
 we simulated a set of smooth curves as transformations of a common Beta density function. We first checked the algorithm by applying it to data obtained from the same base function modified just via shape parameters. Secondly to data obtained from the same base function modified just via time transformation parameters. Finally we switched to the original simulated data. You can check the algorithm for the [alignment](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Code/aligned_curves.R).
 - *Metropolis-Hastings step* : <br/>
@@ -47,6 +47,7 @@ Do people who had surgery have less or more difficulty in jumping with respect t
 In order to do this, we performed analysis such as the comparison of
    - the posterior shape parameter *a*, 
    - the *posterior mean derivative* of each group. You can check the derivative analysis [here](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Code/derivatives.R).
+- *[Plots](link)* : <br/> in this folder are contained all the most significative plots derived from our analysis. In particular you will find NOME GRAFICI obtained thanks to [this](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Code/cross_sectional_and_posterior_mean_trajectory.R) code.
 - *[Report](link)* : the report highlights in detail the steps of our work: model building, posterior inferences, comparisons.
 - *[References](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/tree/main/References)* : this folder contains the article we consulted during our study;
 
