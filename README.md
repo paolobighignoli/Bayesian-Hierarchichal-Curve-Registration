@@ -34,18 +34,19 @@ If you are insterested in a more detailed description of the model, please rely 
 
 - *Data preprocessing*
 - *[Simulated Data](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Code/simulated_functions.R)*: <br/>
-we simulated a set of smooth curves as transformations of a common Beta density function. We first checked the algorithm by applying it to data obtained from the same base function modified just via shape parameters. Secondly to data obtained from the same base function modified just via time transformation parameters. Finally we switched to the original simulated data.
+we simulated a set of smooth curves as transformations of a common Beta density function. We first checked the algorithm by applying it to data obtained from the same base function modified just via shape parameters. Secondly to data obtained from the same base function modified just via time transformation parameters. Finally we switched to the original simulated data. You can check the algorithm for the [alignment](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Code/aligned_curves.R).
 - *Metropolis-Hastings step* : <br/>
 In the folder Code, specifically in [this](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Code/Gibbs%20sampler_one%20step%20Metropolis.R) file you can find the implementation of the Metropolis-Hastings step for the setting of proposal variance for the time transformation parameters;
 - *Gibbs Sampler* : <br/>
 application of the [Gibbs sampler algorithm](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Code/Gibbs%20sampler_one%20step%20Metropolis.R) with one step of Metropolis-Hastings to the data;
-- *Chain convergence* : analysis of the chains;
+- *Chain convergence* : analysis of the chains. <br/>
+In the file [Posterior Plots](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Code/Posterior%20Plots.R) you can see the code to plot histograms with densities, traceplots and autocorrelation for the posterior distributions.
 - *[Comparison](link)* : this folder cointains a comparison among the three groups previously presented. <br/>
 We are aware that you have no access to original data and in particular to the three different groups, but we thought it could be interesting to take a look at it anyway. <br/>
 Do people who had surgery have less or more difficulty in jumping with respect to people who had physiotherapy? We tried to answer to this question and more.<br/>
 In order to do this, we performed analysis such as the comparison of
    - the posterior shape parameter *a*, 
-   - the *posterior mean derivative* of each group.
+   - the *posterior mean derivative* of each group. You can check the derivative analysis [here](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Code/derivatives.R).
 - *[Report](link)* : the report highlights in detail the steps of our work: model building, posterior inferences, comparisons.
 - *[References](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/tree/main/References)* : this folder contains the article we consulted during our study;
 
@@ -62,3 +63,4 @@ In order to do this, we performed analysis such as the comparison of
 Journal of the American Statistical Association (2008).
 * **Bayesian analysis for the social sciences.** Simon Jackman. Wiley, New York (2009).
 * **An Adaptive Metropolis Algorithm.** Heikki Haario, Eero Saksman, Johanna Tamminen. Bernoulli Journal (2001).
+* **Flexible Smoothing Using B–Splines and Penalized Likelihood (with discussion).** Eilers, P., and Marx, B. (1996). Statistical Science, 11, 1200–1224.
