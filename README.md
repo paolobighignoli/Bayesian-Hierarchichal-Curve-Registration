@@ -65,3 +65,4 @@ Journal of the American Statistical Association (2008).
 * **Bayesian analysis for the social sciences.** Simon Jackman. Wiley, New York (2009).
 * **An Adaptive Metropolis Algorithm.** Heikki Haario, Eero Saksman, Johanna Tamminen. Bernoulli Journal (2001).
 * **Flexible Smoothing Using B–Splines and Penalized Likelihood (with discussion).** Eilers, P., and Marx, B. (1996). Statistical Science, 11, 1200–1224.
+* **Bayesian P-splines.** Lang, Stefan, and Andreas Brezger. Journal of computational and graphical statistics 13.1 (2004): 183-212.
