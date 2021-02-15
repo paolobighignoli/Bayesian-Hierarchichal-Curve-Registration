@@ -9,7 +9,7 @@ We propose a three-stage hierarchical model - it models both amplitude and timin
 Data are a collection of observations regarding the flexion-extension angle during one leg hoop over time. <br/>
 They are divided into three groups: healthy people, people who had physiotherapy and people who had surgery. <br/>
 Unfortunately, we are not allowed to upload the original data-set, since these data are medical records.  <br/> Anyway, [Here](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Code/Import%20data.R) is the code we used to preprocess original data.  <br/>
-In order to let you run the code we developed, we built up a set of fake-observations. You can find them in [Simulated Data](link).
+In order to let you run the code we developed, we built up a set of fake-observations. You can find them in [Simulated Data](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Code/simulated_functions.R).
 
 
 ## Model 
@@ -27,13 +27,13 @@ In the end, we identify the i-th aligned curve at time t as: <br/>
 ![alt text](https://github.com/PrincipeFederica/hello-world/blob/main/Schermata%202021-02-11%20alle%2021.59.10.png) <br/>
 
 
-If you are insterested in a more detailed description of the model, please rely on the report uploaded in the repository.
+If you are insterested in a more detailed description of the model, please rely on the [report](link) uploaded in the repository.
 
 
 ## Contents and structure of the codes
 
 - *Data preprocessing*
-- *[Simulated Data](link)*: <br/>
+- *[Simulated Data](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Code/simulated_functions.R)*: <br/>
 we simulated a set of smooth curves as transformations of a common Beta density function. We first checked the algorithm by applying it to data obtained from the same base function modified just via shape parameters. Secondly to data obtained from the same base function modified just via time transformation parameters. Finally we switched to the original simulated data.
 - *Metropolis-Hastings step* : <br/>
 implementation of the Metropolis-Hastings step for the setting of proposal variance for the time transformation parameters;
