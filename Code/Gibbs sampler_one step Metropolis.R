@@ -253,7 +253,7 @@ for ( i in 2:n_iter ) {
   
   # a & c
   SIGMA_c_a = diag (c(sigma_c[i], sigma_a[i]))
-  SIGMA_c_a_inv = solve( SIGMA_c_a ) # non d‡ problemi
+  SIGMA_c_a_inv = solve( SIGMA_c_a ) # non d√† problemi
   w1 = matrix( 1, nrow = n_times )
   v = rbind( c0[i], a0[i] )
   m_l = matrix( 0, nrow=2  , ncol=n_obs)
