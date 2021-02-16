@@ -50,7 +50,7 @@ In order to do this, we performed the following analysis:
    - MBD - depth analysis. We looked for the centrality of the physiotherapy and surgery groups with respect to healthy one. 
 - *[Plots](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/tree/main/Plots)* : <br/> Most relevant plots: aligned curves, cross-sectional mean curve, posterior mean curve for each group. 
 - *[Report](link)* :  <br/> The report highlights in detail the steps of our work: model building, posterior inferences, comparisons.
-- *[References](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/tree/main/References)* : this folder contains the article we consulted during our study;
+- *[References](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/tree/main/References)* : this folder contains the article we consulted during our study.
 
 
 
