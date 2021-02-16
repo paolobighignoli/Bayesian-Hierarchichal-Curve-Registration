@@ -15,7 +15,7 @@ In order to let you run the code we developed, we built up a set of [fake-observ
 ## Model 
 
 We implemented a Gibbs Sampler algorithm with one step of Metropolis-Hastings for the time transformation parameters.
-Consider: <br/>
+Consider: <br/> <br/> 
 ![alt text](https://github.com/PrincipeFederica/hello-world/blob/main/Schermata%202021-02-11%20alle%2021.49.54.png)  <br/>
 And the composite function: <br/>
 ![alt text](https://github.com/PrincipeFederica/hello-world/blob/main/model2.png) <br/>
