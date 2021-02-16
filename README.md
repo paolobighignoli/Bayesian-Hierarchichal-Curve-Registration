@@ -32,7 +32,7 @@ If you are insterested in a more detailed description of the model, please rely 
 ## Contents and structure of the codes
 
 - *[Data preprocessing](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Code/Import%20data.R)*:  <br/>
-Import and visualization of the dataset;
+Import and visualization of the dataset.
 - *[Simulated Data](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Code/simulated_functions.R)*: <br/>
 We simulated a set of smooth curves as transformations of a common Beta density function. You can check the algorithm for the [alignment](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Code/aligned_curves.R) and see its application to the fake curves [here](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Plots/Simulated%20Functions%20Aligned.pdf).
 - *Metropolis-Hastings step* : <br/>
@@ -48,8 +48,8 @@ In order to do this, we performed the following analysis:
    - comparison of the posterior shape parameter *a*;
    - comparison of the *posterior mean derivative* of each group. You can check the derivative analysis [here](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Code/derivatives.R) and the relative plots in [Healthy](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Plots/Derivative%20%2B%20mean%20Healthy.pdf), [Physioterapy group](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Plots/Derivative%20%2B%20mean%20Physioterapy.pdf) and [Surgery group](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Plots/Derivative%20%2B%20mean%20Surgery.pdf);
    - MBD - depth analysis. We looked for the centrality of the physiotherapy and surgery groups with respect to healthy one. 
-- *[Plots](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/tree/main/Plots)* : <br/> Most relevant plots. In particular you will find the original curves for the [Control group](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Plots/Original%20Healthy%20%2B%20cross%20mean.pdf), the [Physioterapy group](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Plots/Original%20Physio%20%2B%20cross%20mean.pdf) and the [Surgery group](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Plots/Original%20Surgery%20%2B%20cross%20mean.pdf) with their cross sectional mean, obtained thanks to [this](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Code/cross_sectional_and_posterior_mean_trajectory.R) code.
-- *[Report](link)* : the report highlights in detail the steps of our work: model building, posterior inferences, comparisons.
+- *[Plots](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/tree/main/Plots)* : <br/> Most relevant plots: aligned curves, cross-sectional mean curve, posterior mean curve for each group. 
+- *[Report](link)* :  <br/> The report highlights in detail the steps of our work: model building, posterior inferences, comparisons.
 - *[References](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/tree/main/References)* : this folder contains the article we consulted during our study;
 
 
