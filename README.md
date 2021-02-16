@@ -31,17 +31,18 @@ If you are insterested in a more detailed description of the model, please rely 
 
 ## Contents and structure of the codes
 
-- *[Data preprocessing](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Code/Import%20data.R)*: import and visualization of the dataset;
+- *[Data preprocessing](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Code/Import%20data.R)*:  <br/>
+Import and visualization of the dataset;
 - *[Simulated Data](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Code/simulated_functions.R)*: <br/>
-we simulated a set of smooth curves as transformations of a common Beta density function. You can check the algorithm for the [alignment](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Code/aligned_curves.R) and see its application to the fake curves [here](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Plots/Simulated%20Functions%20Aligned.pdf);
+We simulated a set of smooth curves as transformations of a common Beta density function. You can check the algorithm for the [alignment](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Code/aligned_curves.R) and see its application to the fake curves [here](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Plots/Simulated%20Functions%20Aligned.pdf).
 - *Metropolis-Hastings step* : <br/>
-In the folder Code, specifically in [this](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Code/Gibbs%20sampler_one%20step%20Metropolis.R) file you can find the implementation of the Metropolis-Hastings step for the setting of proposal variance for the time transformation parameters;
+In the folder Code, specifically in [this](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Code/Gibbs%20sampler_one%20step%20Metropolis.R) file you can find the implementation of the Metropolis-Hastings step for the setting of proposal variance for the time transformation parameters.
 - *Gibbs Sampler* : <br/>
-Application of the [Gibbs sampler algorithm](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Code/Gibbs%20sampler_one%20step%20Metropolis.R) with one step of Metropolis-Hastings to the data;
+Application of the [Gibbs sampler algorithm](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Code/Gibbs%20sampler_one%20step%20Metropolis.R) with one step of Metropolis-Hastings to the data.
 - *Chain convergence* : analysis of the chains. <br/>
-In the file [Posterior Plots](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Code/Posterior%20Plots.R) you can check our posterior inference: traceplots, autocorrelation functions, posterior distributions;
+In the file [Posterior Plots](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Code/Posterior%20Plots.R) you can check our posterior inference: traceplots, autocorrelation functions, posterior distributions.
 - *Comparison* : <br/>
-We are aware that you have no access to original data and in particular to the three different groups, but we thought it could be interesting to take a look at it anyway. You can find the alignment applied to the three groups' original curves in their relative plots, [Aligned Healthy](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Plots/Aligned%20Healthy.pdf), [Aligned Physioterapy](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Plots/Aligned%20Physioterapy.pdf) and [Aligned Surgery](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Plots/Aligned%20Surgery.pdf).<br/>
+We are aware that you have no access to original data and in particular to the three different groups, but we thought it could be interesting to take a look at it anyway. You can find what we got from the application of our algorithm to the three groups in [Aligned Healthy](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Plots/Aligned%20Healthy.pdf), [Aligned Physioterapy](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Plots/Aligned%20Physioterapy.pdf) and [Aligned Surgery](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Plots/Aligned%20Surgery.pdf).<br/>
 Do people who had surgery have less or more difficulty in jumping with respect to people who had physiotherapy? We tried to answer to this question and more.<br/>
 In order to do this, we performed analysis such as the comparison of
    - the posterior shape parameter *a*, 
