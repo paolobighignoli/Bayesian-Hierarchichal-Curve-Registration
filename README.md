@@ -9,7 +9,7 @@ We propose a three-stage hierarchical model - it models both amplitude and timin
 Data are a collection of observations regarding the flexion-extension angle during one leg hoop over time. <br/>
 They are divided into three groups: healthy people, people who had physiotherapy and people who had surgery. <br/>
 Unfortunately, we are not allowed to upload the original data-set, since these data are medical records.  <br/> Anyway, [Here](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Code/Import%20data.R) is the code we used to preprocess original data.  <br/>
-In order to let you run the code we developed, we built up a set of fake-observations. You can find them in [Simulated Data](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Code/simulated_functions.R).
+In order to let you run the code we developed, we built up a set of fake-observations. You can find them in [Simulated Functions](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Code/simulated_functions.R).
 
 
 ## Model 
@@ -47,7 +47,7 @@ Do people who had surgery have less or more difficulty in jumping with respect t
 In order to do this, we performed analysis such as the comparison of
    - the posterior shape parameter *a*, 
    - the *posterior mean derivative* of each group. You can check the derivative analysis [here](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Code/derivatives.R).
-- *[Plots](link)* : <br/> in this folder are contained all the most significative plots derived from our analysis. In particular you will find NOME GRAFICI obtained thanks to [this](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Code/cross_sectional_and_posterior_mean_trajectory.R) code.
+- *[Plots](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/tree/main/Plots)* : <br/> in this folder are contained all the most significative plots derived from our analysis. In particular you will find NOME GRAFICI obtained thanks to [this](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Code/cross_sectional_and_posterior_mean_trajectory.R) code.
 - *[Report](link)* : the report highlights in detail the steps of our work: model building, posterior inferences, comparisons.
 - *[References](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/tree/main/References)* : this folder contains the article we consulted during our study;
 
