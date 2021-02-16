@@ -7,9 +7,9 @@ We propose a three-stage hierarchical model - it models both amplitude and timin
 ## Dataset 
 
 Data are a collection of observations regarding the flexion-extension angle during one leg hoop over time. <br/>
-They are divided into three groups: healthy people, people who had physiotherapy and people who had surgery. <br/>
+They are divided into three groups: [healthy people](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Plots/Original%20Healthy.pdf), people who had [physiotherapy](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Plots/Original%20Physioterapy.pdf) and people who had [surgery](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Plots/Original%20Surgery.pdf). <br/>
 Unfortunately, we are not allowed to upload the original data-set, since these data are medical records.  <br/> Anyway, [Here](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Code/Import%20data.R) is the code we used to preprocess original data.  <br/>
-In order to let you run the code we developed, we built up a set of fake-observations. You can find them in [Simulated Functions](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Code/simulated_functions.R).
+In order to let you run the code we developed, we built up a set of [fake-observations](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Plots/Simulated%20Functions.pdf). You can find them in [Simulated Functions](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Code/simulated_functions.R) code.
 
 
 ## Model 
@@ -34,7 +34,7 @@ If you are insterested in a more detailed description of the model, please rely 
 
 - *[Data preprocessing](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Code/Import%20data.R)*: import and visualization of the dataset
 - *[Simulated Data](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Code/simulated_functions.R)*: <br/>
-we simulated a set of smooth curves as transformations of a common Beta density function. We first checked the algorithm by applying it to data obtained from the same base function modified just via shape parameters. Secondly to data obtained from the same base function modified just via time transformation parameters. Finally we switched to the original simulated data. You can check the algorithm for the [alignment](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Code/aligned_curves.R).
+we simulated a set of smooth curves as transformations of a common Beta density function. We first checked the algorithm by applying it to data obtained from the same base function modified just via shape parameters. Secondly to data obtained from the same base function modified just via time transformation parameters. Finally we switched to the original simulated data. You can check the algorithm for the [alignment](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Code/aligned_curves.R) and see the application of the alignment to the fake curves [here](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Plots/Simulated%20Functions%20Aligned.pdf).
 - *Metropolis-Hastings step* : <br/>
 In the folder Code, specifically in [this](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Code/Gibbs%20sampler_one%20step%20Metropolis.R) file you can find the implementation of the Metropolis-Hastings step for the setting of proposal variance for the time transformation parameters;
 - *Gibbs Sampler* : <br/>
