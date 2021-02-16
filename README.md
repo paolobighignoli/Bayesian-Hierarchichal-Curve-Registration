@@ -49,7 +49,7 @@ In order to do this, we performed the following analysis:
    - comparison of the *posterior mean derivative* of each group. You can check the derivative analysis [here](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Code/derivatives.R) and the relative plots in [Healthy](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Plots/Derivative%20%2B%20mean%20Healthy.pdf), [Physioterapy group](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Plots/Derivative%20%2B%20mean%20Physioterapy.pdf) and [Surgery group](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Plots/Derivative%20%2B%20mean%20Surgery.pdf);
    - MBD - depth analysis. We looked for the centrality of the physiotherapy and surgery groups with respect to healthy one. 
 - *[Plots](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/tree/main/Plots)* : <br/> Most relevant plots: aligned curves, cross-sectional mean curve, posterior mean curve for each group. 
-- *[Report](link)* :  <br/> The report highlights in detail the steps of our work: model building, posterior inferences, comparisons.
+- *[Report](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/blob/main/Report.pdf)* :  <br/> The report highlights in detail the steps of our work: model building, posterior inferences, comparisons.
 - *[References](https://github.com/PrincipeFederica/Bayesian-Principe-Mattina-Bighignoli/tree/main/References)* :  <br/> 
 Articles we consulted during our study.
 
